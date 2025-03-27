@@ -3,7 +3,7 @@ import Services from './Services';
 
 
 function Navbar() {
-    return ( <div>
+    return ( <div style={{padding:"10px", display:"flex", justifyContent:"center", backgroundColor:"grey", color:"white"}}>
         
          <Link to="/">Home</Link>
         <Link to="About">About</Link>
